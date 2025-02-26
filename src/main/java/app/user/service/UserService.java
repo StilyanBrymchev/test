@@ -70,7 +70,7 @@ public class UserService implements UserDetailsService {
 
         return user;
     }
-
+//test
     @CacheEvict(value = "users", allEntries = true)
     public void editUserDetails(UUID userId, UserEditRequest userEditRequest) {
 
